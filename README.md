@@ -10,5 +10,5 @@
 - ` All log messages before absl::InitializeLog() is called are written to STDERR
 E0000 00:00:1735116981.074834    8000 init.cc:229] grpc_wait_for_shutdown_with_timeout() timed out. `
 と出る場合はgrpcioのバージョンを1.67.1に落とすと解決する場合があります。
-- 添削ボタンを押した後にウィンドウが固まったように見えますが処理が少し重いだけです。
+- 添削ボタンを押した後にウィンドウが固まったように見えますがAPI側が返答に時間がかかっているだけです。
 - geminiAPIの無料枠を上回るリクエストを行わないでください。
